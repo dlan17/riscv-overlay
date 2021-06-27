@@ -68,7 +68,7 @@ multilib_src_configure() {
 	ac_cv_header_atomic_ops_h=$(usex libatomic) \
 	econf \
 		--enable-cxx-exceptions \
-		--disable-coredump \
+		--enable-coredump \
 		--enable-ptrace \
 		--enable-setjmp \
 		$(use_enable debug-frame) \
