@@ -3,8 +3,8 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://github.com/zhaofengli/libunwind"
-EGIT_BRANCH="riscv64"
+EGIT_REPO_URI="https://github.com/libunwind/libunwind"
+EGIT_BRANCH="master"
 inherit autotools flag-o-matic libtool multilib-minimal git-r3
 
 DESCRIPTION="Portable and efficient API to determine the call-chain of a program"
